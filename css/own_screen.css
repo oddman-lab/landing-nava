@@ -1,10 +1,37 @@
+.lease-boat_screen  > .background-wrapper {
+    background: url('../img/__lease-screen/lease-boat.jpg') no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
 .lease-boat_screen {
 }
 .lease-boat.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .lease-boat__title {
+    color: #f9fafe;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 180px;
+    margin-bottom: 15px;
 }
 .lease-boat__subtitle {
+    color: #f9fafe;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 90px;
 }
-.button.button_red {
+.lease-boat .button_red {
+    font-weight: 400;
+    margin-bottom: 160px;
+    padding: 10px 40px;
 }
+
