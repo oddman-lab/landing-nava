@@ -1,6 +1,36 @@
-@import url('/Frontend/web-test/some-landing/css/header.css');
-@import url('/Frontend/web-test/some-landing/css/main_screen.css');
-@import url('/Frontend/web-test/some-landing/css/destination_screen.css');
-@import url('/Frontend/web-test/some-landing/css/own_screen.css');
-@import url('/Frontend/web-test/some-landing/css/featured-boats_screen.css');
-@import url('/Frontend/web-test/some-landing/css/footer.css');
+.welcome_screen {
+    color: #ffffff;
+}
+.welcome_screen > .background-wrapper {
+    background: url('../img/__header/Prostokąt\ 1\ kopia.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.header,
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__logo {
+}
+.header__nav {
+}
+
+.nav-list__item {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    list-style: none;
+
+    margin-left: 50px;
+}
+.nav-list__item.nav-list__item_login {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+    width: 145px;
+}
