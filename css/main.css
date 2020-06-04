@@ -14,9 +14,22 @@ body {
 }
 .container {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     width: 1200px;
 
     border-left: 2px dashed greenyellow;
     border-right: 2px dashed greenyellow;
+}
+
+.button {
+    border: none;
+    height: 56px;
+}
+.button_red {
+    background-color: #e7434e;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
 }
