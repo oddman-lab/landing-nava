@@ -12,3 +12,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+
+    border-left: 2px dashed greenyellow;
+    border-right: 2px dashed greenyellow;
+}
