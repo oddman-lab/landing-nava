@@ -4,3 +4,11 @@
 @import url('/Frontend/web-test/some-landing/css/own_screen.css');
 @import url('/Frontend/web-test/some-landing/css/featured-boats_screen.css');
 @import url('/Frontend/web-test/some-landing/css/footer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
