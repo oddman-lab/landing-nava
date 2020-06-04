@@ -26,10 +26,12 @@ body {
     border: none;
     height: 56px;
     border-radius: 5px;
+    position: relative;
 }
 .button_red {
     background-color: #e7434e;
     color: #ffffff;
+    padding-left: 50px;
     font-weight: 700;
     letter-spacing: 0.56px;
     text-transform: uppercase;
@@ -38,6 +40,7 @@ body {
     position: absolute;
     content: '';
     background-image: url('../img/__main-srceen/sailboat-kopia.png');
+    background-repeat: no-repeat;
     width: 18px;
     height: 18px;
     left: 15px;
