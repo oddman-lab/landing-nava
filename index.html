@@ -111,40 +111,89 @@
     <section class="featured-boats__cards">
         <ul class="boats-cards__list">
             <li class="boats-card__item boat">
-                <p class="boat__name-title">Delphia 47</p>
-                <p class="boat__location">Gdańsk, Poland</p>
-                <p class="boat__capacity">8 Berths</p>
+                <button class="button button_red">€580 / day </button>
+                <div class="boats-card__text-container">
+                    <p class="boat__name-title">Delphia 47</p>
+                    <p class="boat__location">Gdańsk, Poland</p>
+                    <span class="boat__capacity">8 Berths</span>
+                </div>
             </li>
             <li class="boats-card__item boat">
-                <p class="boat__name-title">Sense 55</p>
-                <p class="boat__location">Portofino, Italy</p>
-                <p class="boat__capacity">12 Berths</p>
+                <button class="button button_red">€950 / day </button>
+                <div class="boats-card__text-container">
+                    <p class="boat__name-title">Sense 55</p>
+                    <p class="boat__location">Portofino, Italy</p>
+                    <span class="boat__capacity">12 Berths</span>
+                </div>
             </li>
             <li class="boats-card__item boat">
-                <p class="boat__name-title">Crusier 51</p>
-                <p class="boat__location">Palma de Mallorca, Spain</p>
-                <p class="boat__capacity">10 Berths</p>
+                <button class="button button_red">€820 / day </button>
+                <div class="boats-card__text-container">
+                    <p class="boat__name-title">Crusier 51</p>
+                    <p class="boat__location">Palma de Mallorca, Spain</p>
+                    <span class="boat__capacity">10 Berths</span>
+                </div>
             </li>
             <li class="boats-card__item boat">
-                <p class="boat__name-title">Crusier 41s</p>
-                <p class="boat__location">Lisbon, Portugal</p>
-                <p class="boat__capacity">8 Berths</p>
+                <button class="button button_red">€400 / day </button>
+                <div class="boats-card__text-container">
+                    <p class="boat__name-title">Crusier 41s</p>
+                    <p class="boat__location">Lisbon, Portugal</p>
+                    <span class="boat__capacity">8 Berths</span>
+                </div>
             </li>
         </ul>
-        <button class="button button_white-gray">Load more boats</button>
     </section>
+    <button class="button button_white-gray">Load more boats</button>
 </section>
 <footer class="footer">
     <section class="footer-section container">
-        <ul class="footer__top-locations"></ul>
-        <ul class="footer__featured-boats"></ul>
-        <p class="footer__subscribe-title"></p>
-        <form action="" class="form subscribe-form">
-            <input type="text" class="subscribe-form__input" id="subscribe" placeholder="Your email adress">
-            <label class="subscribe-form__label" for="subscribe">
-                <button class="button button_icon button_red">Subscribe</button>
-            </label>
-        </form>
+        <ul class="footer__top-locations">
+            <li class="top-locations__item top-locations__item__title">
+                Top location
+            </li>
+            <li class="top-locations__item">
+                Figueira da Foz
+            </li>
+            <li class="top-locations__item">
+                biza
+            </li>
+            <li class="top-locations__item">
+                Palma de Mallorca
+            </li>
+            <li class="top-locations__item">
+                Portofino
+            </li>
+        </ul>
+        <ul class="footer__featured-boats">
+            <li class="featured-boats top-locations__item__title">Top Boats</li>
+            <li class="featured-boats">Crusier 41s</li>
+            <li class="featured-boats">Crusier 51</li>
+            <li class="featured-boats">Sense 55</li>
+            <li class="featured-boats">Delphia 47</li>
+        </ul>
+
+        <div class="footer__social">
+            <p class="footer__subscribe-title">SUBSCRIBE TO OUR NEWSLETTER</p>
+            <form action="" class="form subscribe-form">
+                
+                <input type="text" class="subscribe-form__input" id="subscribe" placeholder="Your email adress">
+                <label class="subscribe-form__label" for="subscribe">
+                    <button class="button button_red">Subscribe</button>
+                </label>
+            </form>
+            <ul class="social__icon">
+                <li class="social__ico__item fb">
+                    <a href="https://facebook.com">.</a>
+                </li>
+                <li class="social__ico__item tw">
+                    <a href="https://facebook.com">.</a>
+                </li>
+                <li class="social__ico__item yt">
+                    <a href="https://facebook.com">.</a>
+                </li>
+            </ul>
+        </div>
         <ul class="footer__contact-list"></ul>
     </section>
 </footer>
