@@ -1,18 +1,90 @@
 .featured-boats.container {
+    flex-direction: column;
+    align-items: center;
 }
 .featured-boats__title {
+    color: #343435;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 110px;
+    padding: 0;
 }
 .featured-boats__subtitle {
+    color: #717171;
+    font-family: OpenSans;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
 }
 .featured-boats__cards {
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 .boats-cards__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
-.boats-card__item.boat {
+.boats-card__item {
+    background-color: palegreen;
+    margin-top: 50px;
+    min-width: 574px;
+    height: 340px;
+    list-style: none;
+
+    display: flex;
+    align-items: flex-end;
+}
+.boat {
+}
+.boats-card__text-container {
+    margin-left: -100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.boat > .button_red {
+    align-self: flex-start;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    text-transform: none;
 }
 .boat__name-title {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    line-height: 1.33;
+    letter-spacing: 1.2px;
+    flex-grow: 1;
+    width: 100%;
 }
-.boat__location {
+.boat__location,
+.boat__capacity{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5;
 }
-.boat__capacity {
+.featured-boats .button_white-gray {
+    letter-spacing: 0.56px;
+    color: #343434;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #717171;
+    padding: 20px 43px;
+    margin-bottom: 80px;
 }
