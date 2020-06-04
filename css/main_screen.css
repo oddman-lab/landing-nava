@@ -43,31 +43,7 @@
 .search-form__label {
 }
 
-.button_icon::before {
-    position: absolute;
-    content: '';
-    background-image: url('../img/__main-srceen/sailboat-kopia.png');
-    width: 18px;
-    height: 18px;
-    left: 15px;
-}
-    .button_icon:hover::before {
-        animation-name: wawes;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-    }
-    @keyframes wawes {
-        0% {
-            transform: rotate(0deg) translateX(0px);
-        }
-        25% {
-            transform: rotate(6deg) translateX(5px);
-        }
-        75% {
-            transform: rotate(-5deg) translateX(-5px);
-        }
-    }
+
 .search-form__label > .button_red {
     position: relative;
     padding-left: 20px;
