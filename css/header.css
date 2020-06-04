@@ -4,12 +4,13 @@
 .welcome_screen > .background-wrapper {
     background: url('../img/__header/Prostokąt\ 1\ kopia.jpg') no-repeat;
     background-size: cover;
-    background-position: 50%;
+    background-position-x: center;
 }
 
 .header,
 .nav-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
