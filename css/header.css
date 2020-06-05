@@ -28,11 +28,30 @@
     list-style: none;
 
     margin-left: 50px;
+    transition: all 0.25s ease-in;
 }
+    .nav-list__item:hover {
+        cursor: pointer;
+        border-bottom: 1px solid white;
+    }
 .nav-list__item.nav-list__item_login {
     border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 10px 0;
     text-align: center;
+    position: relative;
     width: 145px;
 }
+    .nav-list__item.nav-list__item_login:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #000000;
+    }
+    .nav-list__item.nav-list__item_login:hover::before {
+        position: absolute;
+        content: '🔑';
+        top: 25%;
+        left: 10px;
+    }
+
+    

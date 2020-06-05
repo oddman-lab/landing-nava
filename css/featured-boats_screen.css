@@ -34,6 +34,7 @@
 }
 .boats-card__item {
     background-color: palegreen;
+    border-radius: 5px;
     margin-top: 50px;
     min-width: 574px;
     height: 340px;
@@ -41,6 +42,18 @@
 
     display: flex;
     align-items: flex-end;
+}
+.boats-cards__list > li:nth-child(1) {
+    background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 100%), url('../img/__featured/delphia.png');
+}
+.boats-cards__list > li:nth-child(2) {
+    background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 100%), url('../img/__featured/sense.png');
+}
+.boats-cards__list > li:nth-child(3) {
+    background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 100%), url('../img/__featured/Cruiser51.png');
+}
+.boats-cards__list > li:nth-child(4) {
+    background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 100%), url('../img/__featured/cruiser41s.png');
 }
 .boat {
 }
@@ -78,13 +91,4 @@
     padding: 0;
     font-size: 20px;
     line-height: 1.5;
-}
-.featured-boats .button_white-gray {
-    letter-spacing: 0.56px;
-    color: #343434;
-    text-transform: uppercase;
-    font-weight: 700;
-    border: 1px solid #717171;
-    padding: 20px 43px;
-    margin-bottom: 80px;
 }
