@@ -24,15 +24,30 @@ body {
     height: 56px;
     border-radius: 5px;
     position: relative;
+
+    transition: all 0.25s ease-in;
 }
 .button_red {
     background-color: #e7434e;
     color: #ffffff;
-    /* padding-left: 50px; */
     font-weight: 700;
     letter-spacing: 0.56px;
     text-transform: uppercase;
 }
+    .button_red:hover {
+        cursor: pointer;
+        color: #e7434e;
+        background-color: white;
+    } 
+    .button_red.button_icon:hover::before {
+        cursor: pointer;
+        position: absolute;
+        content: '>';
+        color: #e7434e;
+        width: 18px;
+        height: 18px;
+        left: 15px;
+    }
 .button_icon::before {
     position: absolute;
     content: '';
@@ -59,3 +74,17 @@ body {
             transform: rotate(-5deg) translateX(-5px);
         }
     }
+
+.button_white-gray {
+    letter-spacing: 0.56px;
+    color: #343434;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #717171;
+    padding: 20px 43px;
+    margin-bottom: 80px;
+}
+.button_white-gray:hover {
+    color: #fff;
+    background-color: #343434;
+}
